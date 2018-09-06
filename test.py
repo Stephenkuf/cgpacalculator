@@ -1,7 +1,7 @@
-totalcourses = 6
+totalcourses = int(input("Enter your number of courses: "))
 courseentered = 0
-denn = 0  #this represents
-Unitcum = 0
+denn = 0  #this represents the cumulative points *scores of all iterations 
+Unitcum = 0    #cumulative units
 
 
 while (courseentered < totalcourses):
@@ -31,7 +31,7 @@ while (courseentered < totalcourses):
     print("course entered ", courseentered , "times. ")
 
 
-cgpa =  denn/Unitcum
+cgpa =  denn/Unitcum    
 print("your CGPA is ", cgpa)
 
 
